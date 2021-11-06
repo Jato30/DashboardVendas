@@ -1,6 +1,10 @@
 package com.doisbox.admindashboard.service;
 
+import java.util.List;
+
 import com.doisbox.admindashboard.dto.SaleDTO;
+import com.doisbox.admindashboard.dto.SaleSuccessDTO;
+import com.doisbox.admindashboard.dto.SaleSumDTO;
 import com.doisbox.admindashboard.entities.Sale;
 import com.doisbox.admindashboard.repositories.SaleRepository;
 import com.doisbox.admindashboard.repositories.SellerRepository;
@@ -26,6 +30,15 @@ public class SaleService {
         Page<Sale> result = repository.findAll(pageable);
         return result.map(x -> new SaleDTO(x));
     }
+
+    @Transactional(readOnly = true)
+    public List<SaleSumDTO> amountGroupedBySeller(){
+        return repository.amountGroupedBySeller();
+    }
     
+    @Transactional(readOnly = true)
+    public List<SaleSuccessDTO> successGroupedBySeller(){
+        return repository.successGroupedBySeller();
+    }
     
 }
