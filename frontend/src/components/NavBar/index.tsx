@@ -1,5 +1,4 @@
 
-import './styles.css';
 import Logo1 from 'assets/images/logo1.svg';
 
 const NavBar = () => {

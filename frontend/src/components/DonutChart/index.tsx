@@ -1,6 +1,5 @@
 
 import Chart from 'react-apexcharts';
-import './styles.css';
 
 const DonutChart = () => {
 
