@@ -12,7 +12,7 @@ const Routes = () => {
                     <Home />
                 </Route>
                     
-                <Route path="dashboard">
+                <Route path="/dashboard">
                     <Dashboard />
                 </Route>
             </Switch>
