@@ -5,7 +5,7 @@ const TableRows: JSX.Element[] = [];
 
 for (let i=0; i < 50; i++){
     TableRows.push(
-        <tr>
+        <tr key={i}>
             <td>22/04/2021</td>
             <td>Barry Allen</td>
             <td>34</td>
