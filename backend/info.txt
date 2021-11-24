@@ -1,0 +1,19 @@
+----- DADOS DE CONEXÃO DO BANCO DE DADOS POSTGRES DO APP HEROKU
+
+postgres://caydqhdvnswekg:c50484f03782879d57e27995438c1560b1578bf1a4da8ec3c811b91ed0ee2ded@ec2-34-239-34-246.compute-1.amazonaws.com:5432/dvvgi016q7kth
+
+postgres://
+"USER"
+caydqhdvnswekg
+:
+"SENHA"
+c50484f03782879d57e27995438c1560b1578bf1a4da8ec3c811b91ed0ee2ded
+@
+"HOST"
+ec2-34-239-34-246.compute-1.amazonaws.com
+:
+"PORTA"
+5432
+/
+"NOME DA BASE DE DADOS"
+dvvgi016q7kth
