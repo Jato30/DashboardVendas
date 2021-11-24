@@ -63,3 +63,8 @@
 ### 5) Git e Github para iniciantes
 
 [![Image](https://img.youtube.com/vi/KLG-jC1fh28/mqdefault.jpg "Vídeo no Youtube")](https://youtu.be/KLG-jC1fh28)
+
+
+### COMO EXECUTAR LOCAL EM DEV
+- ./frontend yarn start (inicia o projeto na porta 3000)
+- ./backend mvn spring-boot:run (ou start. inicia backend na porta 8080)
