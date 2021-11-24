@@ -4,6 +4,9 @@ target/
 !**/src/main/**/target/
 !**/src/test/**/target/
 
+### SEGURANCA - ARQUIVO COM INFO PRIVADA
+info.txt
+
 ### STS ###
 .apt_generated
 .classpath
